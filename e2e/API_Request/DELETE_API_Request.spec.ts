@@ -6,7 +6,7 @@ import tokenAPIRequest from '../../test-data/api_request/Token_API_Request.json'
 test.use({
     baseURL: process.env.BASE_API_URL,
 })
-test('Create DELETE API Request then create GET API request using dynamic api request file in playwright & typescript', async ({ request }) => {
+test('Create Delete API Request then create GET API request using dynamic api request file in playwright & typescript', async ({ request }) => {
 
 //Change hard coded values to dynamic values using faker library
 const firstName = faker.name.firstName();

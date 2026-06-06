@@ -1,0 +1,28 @@
+POST API Response : {
+  "bookingid": 3691,
+  "booking": {
+    "firstname": "Shaun",
+    "lastname": "Stiedemann",
+    "totalprice": 746,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-12-01",
+      "checkout": "2026-12-02"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
+Booking ID : 3691
+GET API Response : {
+  "firstname": "Shaun",
+  "lastname": "Stiedemann",
+  "totalprice": 746,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-12-01",
+    "checkout": "2026-12-02"
+  },
+  "additionalneeds": "Breakfast"
+}
+Token API Response : 8b96198b792c5be
+DELETE API Response : Created
