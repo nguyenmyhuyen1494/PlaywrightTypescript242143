@@ -1,0 +1,26 @@
+POST API Response : {
+  "bookingid": 2334,
+  "booking": {
+    "firstname": "Llewellyn",
+    "lastname": "Quitzon",
+    "totalprice": 953,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-05-12",
+      "checkout": "2027-05-16"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
+Booking ID : 2334
+GET API Response : {
+  "firstname": "Llewellyn",
+  "lastname": "Quitzon",
+  "totalprice": 953,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-05-12",
+    "checkout": "2027-05-16"
+  },
+  "additionalneeds": "Breakfast"
+}

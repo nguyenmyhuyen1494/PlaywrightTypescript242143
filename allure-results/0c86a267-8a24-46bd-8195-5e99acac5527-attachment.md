@@ -1,0 +1,326 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e4]:
+      - generic:
+        - list [ref=e5]:
+          - listitem [ref=e6] [cursor=pointer]:
+            - link "jQuery" [ref=e7]:
+              - /url: https://jquery.com/
+          - listitem [ref=e8] [cursor=pointer]:
+            - link "jQuery UI" [ref=e9]:
+              - /url: https://jqueryui.com/
+          - listitem [ref=e10] [cursor=pointer]:
+            - link "jQuery Mobile" [ref=e11]:
+              - /url: https://jquerymobile.com/
+          - listitem [ref=e12] [cursor=pointer]:
+            - link "Sizzle" [ref=e13]:
+              - /url: https://sizzlejs.com/
+          - listitem [ref=e14] [cursor=pointer]:
+            - link "QUnit" [ref=e15]:
+              - /url: https://qunitjs.com/
+        - list [ref=e16]:
+          - listitem [ref=e17] [cursor=pointer]:
+            - link "Plugins" [ref=e18]:
+              - /url: https://plugins.jquery.com/
+          - listitem [ref=e19] [cursor=pointer]:
+            - link "Contribute" [ref=e20]:
+              - /url: https://contribute.jquery.org/
+          - listitem [ref=e21] [cursor=pointer]:
+            - link "Events" [ref=e22]:
+              - /url: https://events.jquery.org/
+          - listitem [ref=e23] [cursor=pointer]:
+            - link "Support" [ref=e24]:
+              - /url: https://jquery.com/support/
+          - listitem [ref=e25] [cursor=pointer]:
+            - link "OpenJS Foundation" [ref=e26]:
+              - /url: https://openjsf.org/
+  - generic [ref=e27]:
+    - heading "jQuery UI" [level=2] [ref=e29]:
+      - link "jQuery UI" [ref=e30] [cursor=pointer]:
+        - /url: /
+    - navigation [ref=e31]:
+      - menu "Navigation" [ref=e32]:
+        - listitem [ref=e33]:
+          - link "Demos" [ref=e34] [cursor=pointer]:
+            - /url: https://jqueryui.com/demos/
+        - listitem [ref=e35]:
+          - link "Download" [ref=e36] [cursor=pointer]:
+            - /url: https://jqueryui.com/download/
+        - listitem [ref=e37]:
+          - link "API Documentation" [ref=e38] [cursor=pointer]:
+            - /url: https://api.jqueryui.com/
+        - listitem [ref=e39]:
+          - link "Themes" [ref=e40] [cursor=pointer]:
+            - /url: https://jqueryui.com/themeroller/
+        - listitem [ref=e41]:
+          - link "Development" [ref=e42] [cursor=pointer]:
+            - /url: https://jqueryui.com/development/
+        - listitem [ref=e43]:
+          - link "Support" [ref=e44] [cursor=pointer]:
+            - /url: https://jqueryui.com/support/
+        - listitem [ref=e45]:
+          - link "Blog" [ref=e46] [cursor=pointer]:
+            - /url: https://blog.jqueryui.com/
+        - listitem [ref=e47]:
+          - link "About" [ref=e48] [cursor=pointer]:
+            - /url: https://jqueryui.com/about/
+      - search [ref=e49]:
+        - searchbox "Search jQuery UI" [ref=e50]
+        - button [ref=e51] [cursor=pointer]
+        - text: /
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - heading "Checkboxradio" [level=1] [ref=e55]
+        - separator [ref=e56]
+        - paragraph [ref=e57]: Enhances standard checkbox and radio input element to themeable buttons with appropriate hover and active styles.
+        - generic [ref=e58]:
+          - heading "Examples" [level=2] [ref=e59]
+          - list [ref=e60]:
+            - listitem [ref=e61]:
+              - link "Default functionality" [ref=e62] [cursor=pointer]:
+                - /url: /resources/demos/checkboxradio/default.html
+            - listitem [ref=e63]:
+              - link "No Icons" [ref=e64] [cursor=pointer]:
+                - /url: /resources/demos/checkboxradio/no-icons.html
+            - listitem [ref=e65]:
+              - link "Product Selector" [ref=e66] [cursor=pointer]:
+                - /url: /resources/demos/checkboxradio/product-selector.html
+            - listitem [ref=e67]:
+              - link "Radio Group" [ref=e68] [cursor=pointer]:
+                - /url: /resources/demos/checkboxradio/radiogroup.html
+        - iframe [ref=e69]:
+          - generic [ref=f1e2]:
+            - heading "Checkbox and radio button widgets" [level=1] [ref=f1e3]
+            - heading "Radio Group" [level=2] [ref=f1e4]
+            - group "Select a Location:" [ref=f1e5]:
+              - generic [ref=f1e6]: "Select a Location:"
+              - generic [ref=f1e7] [cursor=pointer]: New York
+              - radio "New York" [ref=f1e9]
+              - generic [ref=f1e10] [cursor=pointer]: Paris
+              - radio "Paris" [ref=f1e12]
+              - generic [ref=f1e13] [cursor=pointer]: London
+              - radio "London" [ref=f1e15]
+            - heading "Checkbox" [level=2] [ref=f1e16]
+            - group "Hotel Ratings:" [ref=f1e17]:
+              - generic [ref=f1e18]: "Hotel Ratings:"
+              - generic [ref=f1e19] [cursor=pointer]: 2 Star
+              - checkbox "2 Star" [ref=f1e21]
+              - generic [ref=f1e22] [cursor=pointer]: 3 Star
+              - checkbox "3 Star" [ref=f1e24]
+              - generic [ref=f1e25] [cursor=pointer]: 4 Star
+              - checkbox "4 Star" [ref=f1e27]
+              - generic [ref=f1e28] [cursor=pointer]: 5 Star
+              - checkbox "5 Star" [ref=f1e30]
+            - heading "Checkbox nested in label" [level=2] [ref=f1e31]
+            - group "Bed Type:" [ref=f1e32]:
+              - generic [ref=f1e33]: "Bed Type:"
+              - generic [ref=f1e34] [cursor=pointer]:
+                - text: 2 Double
+                - checkbox "2 Double" [ref=f1e36]
+              - generic [ref=f1e37] [cursor=pointer]:
+                - text: 2 Queen
+                - checkbox "2 Queen" [ref=f1e39]
+              - generic [ref=f1e40] [cursor=pointer]:
+                - text: 1 Queen
+                - checkbox "1 Queen" [ref=f1e42]
+              - generic [ref=f1e43] [cursor=pointer]:
+                - text: 1 King
+                - checkbox "1 King" [ref=f1e45]
+        - paragraph [ref=e71]: Examples of the markup that can be used with checkboxes and radio buttons.
+        - generic [ref=e73] [cursor=pointer]:
+          - generic [ref=e74]: 
+          - text: view source
+        - paragraph [ref=e75]:
+          - text: Want to learn more about the checkboxradio widget? Check out the
+          - link "API documentation" [ref=e76] [cursor=pointer]:
+            - /url: https://api.jqueryui.com/checkboxradio/
+          - text: .
+      - complementary [ref=e77]:
+        - complementary [ref=e78]:
+          - heading "Interactions" [level=3] [ref=e79]
+          - list [ref=e80]:
+            - listitem [ref=e81]:
+              - link "Draggable" [ref=e82] [cursor=pointer]:
+                - /url: https://jqueryui.com/draggable/
+            - listitem [ref=e83]:
+              - link "Droppable" [ref=e84] [cursor=pointer]:
+                - /url: https://jqueryui.com/droppable/
+            - listitem [ref=e85]:
+              - link "Resizable" [ref=e86] [cursor=pointer]:
+                - /url: https://jqueryui.com/resizable/
+            - listitem [ref=e87]:
+              - link "Selectable" [ref=e88] [cursor=pointer]:
+                - /url: https://jqueryui.com/selectable/
+            - listitem [ref=e89]:
+              - link "Sortable" [ref=e90] [cursor=pointer]:
+                - /url: https://jqueryui.com/sortable/
+        - complementary [ref=e91]:
+          - heading "Widgets" [level=3] [ref=e92]
+          - list [ref=e93]:
+            - listitem [ref=e94]:
+              - link "Accordion" [ref=e95] [cursor=pointer]:
+                - /url: https://jqueryui.com/accordion/
+            - listitem [ref=e96]:
+              - link "Autocomplete" [ref=e97] [cursor=pointer]:
+                - /url: https://jqueryui.com/autocomplete/
+            - listitem [ref=e98]:
+              - link "Button" [ref=e99] [cursor=pointer]:
+                - /url: https://jqueryui.com/button/
+            - listitem [ref=e100]:
+              - link "Checkboxradio" [ref=e101] [cursor=pointer]:
+                - /url: https://jqueryui.com/checkboxradio/
+            - listitem [ref=e102]:
+              - link "Controlgroup" [ref=e103] [cursor=pointer]:
+                - /url: https://jqueryui.com/controlgroup/
+            - listitem [ref=e104]:
+              - link "Datepicker" [ref=e105] [cursor=pointer]:
+                - /url: https://jqueryui.com/datepicker/
+            - listitem [ref=e106]:
+              - link "Dialog" [ref=e107] [cursor=pointer]:
+                - /url: https://jqueryui.com/dialog/
+            - listitem [ref=e108]:
+              - link "Menu" [ref=e109] [cursor=pointer]:
+                - /url: https://jqueryui.com/menu/
+            - listitem [ref=e110]:
+              - link "Progressbar" [ref=e111] [cursor=pointer]:
+                - /url: https://jqueryui.com/progressbar/
+            - listitem [ref=e112]:
+              - link "Selectmenu" [ref=e113] [cursor=pointer]:
+                - /url: https://jqueryui.com/selectmenu/
+            - listitem [ref=e114]:
+              - link "Slider" [ref=e115] [cursor=pointer]:
+                - /url: https://jqueryui.com/slider/
+            - listitem [ref=e116]:
+              - link "Spinner" [ref=e117] [cursor=pointer]:
+                - /url: https://jqueryui.com/spinner/
+            - listitem [ref=e118]:
+              - link "Tabs" [ref=e119] [cursor=pointer]:
+                - /url: https://jqueryui.com/tabs/
+            - listitem [ref=e120]:
+              - link "Tooltip" [ref=e121] [cursor=pointer]:
+                - /url: https://jqueryui.com/tooltip/
+        - complementary [ref=e122]:
+          - heading "Effects" [level=3] [ref=e123]
+          - list [ref=e124]:
+            - listitem [ref=e125]:
+              - link "Add Class" [ref=e126] [cursor=pointer]:
+                - /url: https://jqueryui.com/addClass/
+            - listitem [ref=e127]:
+              - link "Color Animation" [ref=e128] [cursor=pointer]:
+                - /url: https://jqueryui.com/animate/
+            - listitem [ref=e129]:
+              - link "Easing" [ref=e130] [cursor=pointer]:
+                - /url: https://jqueryui.com/easing/
+            - listitem [ref=e131]:
+              - link "Effect" [ref=e132] [cursor=pointer]:
+                - /url: https://jqueryui.com/effect/
+            - listitem [ref=e133]:
+              - link "Hide" [ref=e134] [cursor=pointer]:
+                - /url: https://jqueryui.com/hide/
+            - listitem [ref=e135]:
+              - link "Remove Class" [ref=e136] [cursor=pointer]:
+                - /url: https://jqueryui.com/removeClass/
+            - listitem [ref=e137]:
+              - link "Show" [ref=e138] [cursor=pointer]:
+                - /url: https://jqueryui.com/show/
+            - listitem [ref=e139]:
+              - link "Switch Class" [ref=e140] [cursor=pointer]:
+                - /url: https://jqueryui.com/switchClass/
+            - listitem [ref=e141]:
+              - link "Toggle" [ref=e142] [cursor=pointer]:
+                - /url: https://jqueryui.com/toggle/
+            - listitem [ref=e143]:
+              - link "Toggle Class" [ref=e144] [cursor=pointer]:
+                - /url: https://jqueryui.com/toggleClass/
+        - complementary [ref=e145]:
+          - heading "Utilities" [level=3] [ref=e146]
+          - list [ref=e147]:
+            - listitem [ref=e148]:
+              - link "Position" [ref=e149] [cursor=pointer]:
+                - /url: https://jqueryui.com/position/
+            - listitem [ref=e150]:
+              - link "Widget Factory" [ref=e151] [cursor=pointer]:
+                - /url: https://jqueryui.com/widget/
+  - contentinfo [ref=e152]:
+    - generic [ref=e153]:
+      - generic [ref=e155]:
+        - heading "Books" [level=3] [ref=e156]:
+          - generic [ref=e157]: Books
+        - list:
+          - listitem [ref=e158]:
+            - link "jQuery UI in Action by TJ VanToll jQuery UI in Action TJ VanToll" [ref=e159] [cursor=pointer]:
+              - /url: https://www.manning.com/books/jquery-ui-in-action
+              - img "jQuery UI in Action by TJ VanToll" [ref=e161]
+              - strong [ref=e162]: jQuery UI in Action
+              - generic [ref=e163]: TJ VanToll
+          - listitem [ref=e164]:
+            - link "jQuery UI Themes by Adam Boduch jQuery UI Themes Adam Boduch" [ref=e165] [cursor=pointer]:
+              - /url: https://www.packtpub.com/web-development/jquery-ui-themes-beginners-guide
+              - img "jQuery UI Themes by Adam Boduch" [ref=e166]
+              - text: jQuery UI Themes
+              - generic [ref=e167]: Adam Boduch
+          - listitem [ref=e168]:
+            - link "jQuery UI Cookbook by Adam Boduch jQuery UI Cookbook Adam Boduch" [ref=e169] [cursor=pointer]:
+              - /url: https://www.packtpub.com/web-development/jquery-ui-cookbook
+              - img "jQuery UI Cookbook by Adam Boduch" [ref=e170]
+              - text: jQuery UI Cookbook
+              - generic [ref=e171]: Adam Boduch
+      - generic [ref=e172]:
+        - list [ref=e173]:
+          - listitem [ref=e174]:
+            - link " Learning Center" [ref=e175] [cursor=pointer]:
+              - /url: https://learn.jquery.com/
+          - listitem [ref=e176]:
+            - link " Chat" [ref=e177] [cursor=pointer]:
+              - /url: https://jquery.com/support/
+          - listitem [ref=e178]:
+            - link " Twitter" [ref=e179] [cursor=pointer]:
+              - /url: https://twitter.com/jqueryui
+          - listitem [ref=e180]:
+            - link " GitHub" [ref=e181] [cursor=pointer]:
+              - /url: https://github.com/jquery
+        - paragraph [ref=e182]:
+          - text: Copyright 2025
+          - link "OpenJS Foundation" [ref=e183] [cursor=pointer]:
+            - /url: https://openjsf.org/
+          - text: and jQuery contributors. All rights reserved. See
+          - link "jQuery License" [ref=e184] [cursor=pointer]:
+            - /url: https://jquery.com/license/
+          - text: for more information. The
+          - link "OpenJS Foundation" [ref=e185] [cursor=pointer]:
+            - /url: https://openjsf.org/
+          - text: has registered trademarks and uses trademarks. For a list of trademarks of the
+          - link "OpenJS Foundation" [ref=e186] [cursor=pointer]:
+            - /url: https://openjsf.org/
+          - text: ", please see our"
+          - link "Trademark Policy" [ref=e187] [cursor=pointer]:
+            - /url: https://trademark-policy.openjsf.org/
+          - text: and
+          - link "Trademark List" [ref=e188] [cursor=pointer]:
+            - /url: https://trademark-list.openjsf.org/
+          - text: . Trademarks and logos not indicated on the
+          - link "list of OpenJS Foundation trademarks" [ref=e189] [cursor=pointer]:
+            - /url: https://trademark-list.openjsf.org/
+          - text: are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them. OpenJS Foundation
+          - link "Terms of Use" [ref=e190] [cursor=pointer]:
+            - /url: https://terms-of-use.openjsf.org/
+          - text: ","
+          - link "Privacy" [ref=e191] [cursor=pointer]:
+            - /url: https://privacy-policy.openjsf.org/
+          - text: ", and"
+          - link "Cookie" [ref=e192] [cursor=pointer]:
+            - /url: https://www.linuxfoundation.org/cookies
+          - text: Policies also apply.
+        - paragraph [ref=e193]:
+          - link "Web hosting by Digital Ocean" [ref=e194] [cursor=pointer]:
+            - /url: https://www.digitalocean.com
+          - text: "|"
+          - link "CDN by Fastly" [ref=e195] [cursor=pointer]:
+            - /url: https://www.fastly.com/
+          - text: "|"
+          - link "Powered by WordPress" [ref=e196] [cursor=pointer]:
+            - /url: https://wordpress.org/
+```

@@ -1,0 +1,94 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Gmail" [ref=e8] [cursor=pointer]:
+          - /url: https://mail.google.com/mail/&ogbl
+        - link "Tìm kiếm hình ảnh" [ref=e10] [cursor=pointer]:
+          - /url: https://www.google.com/imghp?hl=vi&ogbl
+          - text: Hình ảnh
+      - button "Các ứng dụng của Google" [ref=e13] [cursor=pointer]:
+        - img [ref=e14]
+      - link "Đăng nhập" [ref=e18] [cursor=pointer]:
+        - /url: https://accounts.google.com/ServiceLogin?hl=vi&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e
+  - img "Mùa Giáng sinh và lễ hội năm 2025" [ref=e22]
+  - search [ref=e24]:
+    - generic [ref=e26]:
+      - generic [ref=e28]:
+        - img [ref=e32]
+        - generic [ref=e34]:
+          - generic: ggg
+          - combobox "Tìm kiếm" [expanded] [active] [ref=e35]:
+            - text: gggg
+            - listbox [ref=e37]:
+              - option "gggg vvvv" [ref=e41]:
+                - generic [ref=e42]: gggg vvvv
+              - option "gggg d" [ref=e46]:
+                - generic [ref=e47]: gggg d
+              - option "google" [ref=e51]:
+                - generic [ref=e52]: google
+              - option "gg dich ch" [ref=e56]:
+                - generic [ref=e57]: gg dich ch
+              - option "gg gemini" [ref=e61]:
+                - generic [ref=e62]: gg gemini
+              - option "google dich" [ref=e66]:
+                - generic [ref=e67]: google dich
+              - option "google map" [ref=e71]:
+                - generic [ref=e72]: google map
+              - option "google meet" [ref=e76]:
+                - generic [ref=e77]: google meet
+              - option "google translate" [ref=e81]:
+                - generic [ref=e82]: google translate
+              - option "google ai studio" [ref=e86]:
+                - generic [ref=e87]: google ai studio
+        - generic [ref=e88]:
+          - button "Xóa" [ref=e90] [cursor=pointer]:
+            - img [ref=e92]
+          - link "Chế độ AI" [ref=e94] [cursor=pointer]:
+            - generic [ref=e96]:
+              - img [ref=e98]
+              - generic [ref=e105]: Chế độ AI
+      - generic [ref=e106]:
+        - generic [ref=e110]:
+          - button "Tìm trên Google" [ref=e111] [cursor=pointer]
+          - button "Xem trang đầu tiên tìm được" [ref=e112] [cursor=pointer]
+        - button "Báo cáo các gợi ý không phù hợp" [ref=e113] [cursor=pointer]:
+          - generic [ref=e114]: Báo cáo các gợi ý không phù hợp
+      - generic [ref=e116]:
+        - button "Tìm trên Google" [ref=e117] [cursor=pointer]
+        - button "Xem trang đầu tiên tìm được" [ref=e118] [cursor=pointer]
+  - generic [ref=e119]:
+    - generic [ref=e127]:
+      - link "Học cách tận dụng AI để lên ý tưởng," [ref=e128] [cursor=pointer]
+      - generic [ref=e129]: hoàn thành nhiều việc hơn và tiết kiệm thời gian
+    - generic [ref=e131]:
+      - text: "Google hỗ trợ các ngôn ngữ:"
+      - link "English" [ref=e132] [cursor=pointer]:
+        - /url: https://www.google.com/setprefs?sig=0_6UQgb2VYUJbz4XMvfRW-NNvrcAU%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwiXhqbYrK6RAxWz6TQHHT4nLIYQ2ZgBCBc
+      - link "Français" [ref=e133] [cursor=pointer]:
+        - /url: https://www.google.com/setprefs?sig=0_6UQgb2VYUJbz4XMvfRW-NNvrcAU%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwiXhqbYrK6RAxWz6TQHHT4nLIYQ2ZgBCBg
+      - link "繁體中文" [ref=e134] [cursor=pointer]:
+        - /url: https://www.google.com/setprefs?sig=0_6UQgb2VYUJbz4XMvfRW-NNvrcAU%3D&hl=zh-TW&source=homepage&sa=X&ved=0ahUKEwiXhqbYrK6RAxWz6TQHHT4nLIYQ2ZgBCBk
+  - contentinfo [ref=e136]:
+    - generic [ref=e137]: Việt Nam
+    - generic [ref=e138]:
+      - generic [ref=e139]:
+        - link "Giới thiệu" [ref=e140] [cursor=pointer]:
+          - /url: https://about.google/?utm_source=google-VN&utm_medium=referral&utm_campaign=hp-footer&fg=1
+        - link "Quảng cáo" [ref=e141] [cursor=pointer]:
+          - /url: https://www.google.com/intl/vi_vn/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+        - link "Doanh nghiệp" [ref=e142] [cursor=pointer]:
+          - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+        - link "Cách hoạt động của Tìm kiếm" [ref=e143] [cursor=pointer]:
+          - /url: https://google.com/search/howsearchworks/?fg=1
+      - generic [ref=e144]:
+        - link "Quyền riêng tư" [ref=e145] [cursor=pointer]:
+          - /url: https://policies.google.com/privacy?hl=vi&fg=1
+        - link "Điều khoản" [ref=e146] [cursor=pointer]:
+          - /url: https://policies.google.com/terms?hl=vi&fg=1
+        - button "Cài đặt" [ref=e150] [cursor=pointer]:
+          - generic [ref=e151]: Cài đặt
+```

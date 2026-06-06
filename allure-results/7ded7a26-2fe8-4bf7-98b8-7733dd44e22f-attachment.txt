@@ -1,0 +1,38 @@
+POST API Response : {
+  "bookingid": 1390,
+  "booking": {
+    "firstname": "Alyce",
+    "lastname": "Connelly",
+    "totalprice": 612,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-03-30",
+      "checkout": "2027-04-01"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
+Booking ID : 1390
+GET API Response : {
+  "firstname": "Alyce",
+  "lastname": "Connelly",
+  "totalprice": 612,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-03-30",
+    "checkout": "2027-04-01"
+  },
+  "additionalneeds": "Breakfast"
+}
+Token API Response : cea20c6c93ed141
+PUT API Response : {
+  "firstname": "Hanah",
+  "lastname": "Connelly",
+  "totalprice": 612,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-03-30",
+    "checkout": "2027-04-01"
+  },
+  "additionalneeds": "Breakfast"
+}

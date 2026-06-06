@@ -1,0 +1,27 @@
+POST API Response : {
+  "bookingid": 5534,
+  "booking": {
+    "firstname": "Willy",
+    "lastname": "Goyette",
+    "totalprice": 840,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-08-14",
+      "checkout": "2026-08-15"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
+Booking ID : 5534
+GET API Response : {
+  "firstname": "Willy",
+  "lastname": "Goyette",
+  "totalprice": 840,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-08-14",
+    "checkout": "2026-08-15"
+  },
+  "additionalneeds": "Breakfast"
+}
+Token API Response : undefined

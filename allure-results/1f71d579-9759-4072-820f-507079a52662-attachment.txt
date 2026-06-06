@@ -1,0 +1,14 @@
+POST API Response : {
+  "bookingid": 1259,
+  "booking": {
+    "firstname": "Helen",
+    "lastname": "Nguyen",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-11"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}

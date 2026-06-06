@@ -1,0 +1,14 @@
+POST API Response : {
+  "bookingid": 4556,
+  "booking": {
+    "firstname": "playwright_1771855819569",
+    "lastname": "javascript_1771855819569",
+    "totalprice": 150,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-11"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}

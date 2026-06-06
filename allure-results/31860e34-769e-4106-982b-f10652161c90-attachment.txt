@@ -1,0 +1,14 @@
+POST API Response : {
+  "bookingid": 537,
+  "booking": {
+    "firstname": "Tomasa",
+    "lastname": "Bechtelar",
+    "totalprice": 122,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-04-06",
+      "checkout": "2026-12-31"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}

@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","9182","Handle confirm popup","Microsoft Edge","Fri Oct 24 21:36:15 ICT 2025","failed","Fri Oct 24 21:36:24 ICT 2025","","handle-confirms.spec.ts","",""

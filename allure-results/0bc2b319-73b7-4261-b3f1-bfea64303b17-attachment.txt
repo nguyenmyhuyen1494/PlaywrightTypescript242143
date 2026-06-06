@@ -1,0 +1,14 @@
+POST API Response : {
+  "bookingid": 6048,
+  "booking": {
+    "firstname": "Jayden",
+    "lastname": "Schulist",
+    "totalprice": 618,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-07-29",
+      "checkout": "2026-06-21"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}

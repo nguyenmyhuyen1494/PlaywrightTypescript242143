@@ -1,0 +1,27 @@
+POST API Response : {
+  "bookingid": 3801,
+  "booking": {
+    "firstname": "Ima",
+    "lastname": "Hammes",
+    "totalprice": 144,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-04-29",
+      "checkout": "2027-04-30"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
+Booking ID : 3801
+GET API Response : {
+  "firstname": "Ima",
+  "lastname": "Hammes",
+  "totalprice": 144,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-04-29",
+    "checkout": "2027-04-30"
+  },
+  "additionalneeds": "Breakfast"
+}
+Token API Response : 5754bc38ad238ab

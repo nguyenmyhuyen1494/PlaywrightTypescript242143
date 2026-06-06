@@ -1,0 +1,2 @@
+🌍 Global beforeEach → Check heading text
+🌍 Global afterEach → Check heading text

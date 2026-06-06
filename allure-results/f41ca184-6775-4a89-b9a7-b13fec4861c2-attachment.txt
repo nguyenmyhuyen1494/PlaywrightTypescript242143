@@ -1,0 +1,38 @@
+POST API Response : {
+  "bookingid": 4759,
+  "booking": {
+    "firstname": "Alan",
+    "lastname": "Bosco",
+    "totalprice": 560,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-01-11",
+      "checkout": "2027-01-11"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
+Booking ID : 4759
+GET API Response : {
+  "firstname": "Alan",
+  "lastname": "Bosco",
+  "totalprice": 560,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-01-11",
+    "checkout": "2027-01-11"
+  },
+  "additionalneeds": "Breakfast"
+}
+Token API Response : 4cb57f746deff16
+PUT API Response : {
+  "firstname": "Helen",
+  "lastname": "Nguyen",
+  "totalprice": 244,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-04-30",
+    "checkout": "2027-05-10"
+  },
+  "additionalneeds": "super bowls"
+}

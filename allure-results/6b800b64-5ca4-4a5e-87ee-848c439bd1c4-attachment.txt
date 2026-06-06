@@ -1,0 +1,28 @@
+POST API Response : {
+  "bookingid": 418,
+  "booking": {
+    "firstname": "Octavia",
+    "lastname": "Walker",
+    "totalprice": 583,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-03-07",
+      "checkout": "2027-03-08"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
+Booking ID : 418
+GET API Response : {
+  "firstname": "Octavia",
+  "lastname": "Walker",
+  "totalprice": 583,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-03-07",
+    "checkout": "2027-03-08"
+  },
+  "additionalneeds": "Breakfast"
+}
+Token API Response : b6e696c4ca669fb
+DELETE API Response : Created

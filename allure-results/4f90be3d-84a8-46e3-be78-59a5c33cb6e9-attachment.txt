@@ -1,0 +1,38 @@
+POST API Response : {
+  "bookingid": 815,
+  "booking": {
+    "firstname": "Domenico",
+    "lastname": "Feest",
+    "totalprice": 747,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-10-16",
+      "checkout": "2026-10-18"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
+Booking ID : 815
+GET API Response : {
+  "firstname": "Domenico",
+  "lastname": "Feest",
+  "totalprice": 747,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-10-16",
+    "checkout": "2026-10-18"
+  },
+  "additionalneeds": "Breakfast"
+}
+Token API Response : db1ed7e4c7a15aa
+PUT API Response : {
+  "firstname": "Helen",
+  "lastname": "Nguyen",
+  "totalprice": 244,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-04-30",
+    "checkout": "2027-05-10"
+  },
+  "additionalneeds": "super bowls"
+}

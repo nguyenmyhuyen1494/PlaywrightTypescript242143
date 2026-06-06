@@ -1,0 +1,3 @@
+🌍 Global beforeEach → POM Example Test
+Test execution started...
+🌍 Global afterEach → POM Example Test

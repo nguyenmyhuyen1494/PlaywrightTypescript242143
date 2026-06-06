@@ -1,0 +1,11 @@
+{
+    "firstname": "Helen",
+    "lastname": "Nguyen",
+    "totalprice": 244,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-04-30",
+      "checkout": "2027-05-10"
+    },
+    "additionalneeds": "super bowls"
+  }

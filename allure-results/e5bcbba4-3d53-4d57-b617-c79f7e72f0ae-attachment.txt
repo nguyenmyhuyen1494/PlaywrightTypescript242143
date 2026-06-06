@@ -1,0 +1,38 @@
+POST API Response : {
+  "bookingid": 2598,
+  "booking": {
+    "firstname": "Alda",
+    "lastname": "Heller",
+    "totalprice": 839,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-02-03",
+      "checkout": "2027-02-07"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
+Booking ID : 2598
+GET API Response : {
+  "firstname": "Alda",
+  "lastname": "Heller",
+  "totalprice": 839,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-02-03",
+    "checkout": "2027-02-07"
+  },
+  "additionalneeds": "Breakfast"
+}
+Token API Response : d7436a0702edf31
+PATCH API Response : {
+  "firstname": "Hanah",
+  "lastname": "Heller",
+  "totalprice": 839,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-02-03",
+    "checkout": "2027-02-07"
+  },
+  "additionalneeds": "Breakfast"
+}

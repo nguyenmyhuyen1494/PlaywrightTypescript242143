@@ -1,0 +1,90 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e5]:
+      - generic [ref=e7]:
+        - text: Already have an account?
+        - link "Sign in →" [ref=e8] [cursor=pointer]:
+          - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsignup%3Fref_cta%3DSign%2Bup%26ref_loc%3Dheader%2Blogged%2Bout%26ref_page%3D%252F%26source%3Dheader-home
+  - main [ref=e12]:
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - heading "Create your free account" [level=1] [ref=e16]
+          - text: Explore GitHub's core features for individuals and organizations.
+          - group [ref=e17]:
+            - generic "See what's included" [ref=e18] [cursor=pointer]:
+              - text: See what's included
+              - img [ref=e20]
+        - img "GitHub Mascots Mona, Copilot, and a rubber duck floating together." [ref=e23]
+      - generic [ref=e29]:
+        - heading "Sign up for GitHub" [level=2] [ref=e31]
+        - generic [ref=e32]:
+          - button "Continue with Google" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]:
+              - generic:
+                - img:
+                  - img
+              - generic [ref=e36]: Continue with Google
+          - button "Continue with Apple" [ref=e38] [cursor=pointer]:
+            - generic [ref=e39]:
+              - generic:
+                - img:
+                  - img
+              - generic [ref=e40]: Continue with Apple
+          - generic [ref=e42]: or
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - generic [ref=e46]:
+                - text: Email
+                - superscript [ref=e47]: "*"
+              - textbox "Email" [ref=e50]
+            - generic [ref=e51]:
+              - generic [ref=e52]:
+                - text: Password
+                - superscript [ref=e53]: "*"
+              - generic [ref=e54]:
+                - textbox "Password" [ref=e58]
+                - generic [ref=e59]: Password should be at least 15 characters OR at least 8 characters including a number and a lowercase letter.
+            - generic [ref=e60]:
+              - generic [ref=e62]:
+                - text: Username
+                - superscript [ref=e63]: "*"
+              - generic [ref=e64]:
+                - textbox "Username" [ref=e67]
+                - generic [ref=e68]: Username may only contain alphanumeric characters or single hyphens, and cannot begin or end with a hyphen.
+            - generic [ref=e69]:
+              - generic [ref=e70]:
+                - generic [ref=e72]:
+                  - text: Your Country/Region
+                  - superscript [ref=e73]: "*"
+                  - generic [ref=e74]: ", required"
+                - generic [ref=e75]:
+                  - button "Your Country/Region , required Philippines" [ref=e78] [cursor=pointer]:
+                    - generic [ref=e80]: Philippines
+                    - generic:
+                      - img
+                  - generic [ref=e81]: For compliance reasons, we're required to collect country information to send you occasional updates and announcements.
+              - group "Email preferences" [ref=e83]:
+                - generic [ref=e84]: Email preferences
+                - generic [ref=e86]:
+                  - checkbox "Receive occasional product updates and announcements" [ref=e87] [cursor=pointer]
+                  - generic [ref=e89] [cursor=pointer]: Receive occasional product updates and announcements
+          - button "Create account" [ref=e91] [cursor=pointer]:
+            - generic [ref=e93]:
+              - text: Create account
+              - img [ref=e94]
+          - paragraph [ref=e97]:
+            - text: By creating an account, you agree to the
+            - link "Terms of Service" [ref=e98] [cursor=pointer]:
+              - /url: /site/terms
+            - text: . For more information about GitHub's privacy practices, see the
+            - link "GitHub Privacy Statement" [ref=e99] [cursor=pointer]:
+              - /url: /site/privacy
+            - text: . We'll occasionally send you account-related emails.
+```

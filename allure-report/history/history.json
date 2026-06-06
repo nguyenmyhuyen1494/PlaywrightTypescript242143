@@ -1,0 +1,1 @@
+{"1cc2282da0431f9594a0b4462be6f488:2d9eadd8e5698e677c4123f9b6b8cac6":{"statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"38179c7b19dc83c6","status":"failed","statusDetails":"TypeError: (0 , _fixtures.expect) is not a function","time":{"start":1761316575382,"stop":1761316584564,"duration":9182}}]}}

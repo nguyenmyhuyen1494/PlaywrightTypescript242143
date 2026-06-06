@@ -1,0 +1,14 @@
+POST API Response : {
+  "bookingid": 5274,
+  "booking": {
+    "firstname": "Zita",
+    "lastname": "Halvorson",
+    "totalprice": 191,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-03-13",
+      "checkout": "2026-05-11"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}

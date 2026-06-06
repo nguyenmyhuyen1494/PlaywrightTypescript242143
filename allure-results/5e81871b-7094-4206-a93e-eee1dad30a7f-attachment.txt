@@ -1,0 +1,2 @@
+🌍 Global beforeEach → Check page title
+🌍 Global afterEach → Check page title

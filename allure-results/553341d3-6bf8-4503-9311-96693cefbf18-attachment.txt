@@ -1,0 +1,38 @@
+POST API Response : {
+  "bookingid": 4770,
+  "booking": {
+    "firstname": "Raegan",
+    "lastname": "Carter",
+    "totalprice": 654,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-05-31",
+      "checkout": "2027-06-03"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
+Booking ID : 4770
+GET API Response : {
+  "firstname": "Raegan",
+  "lastname": "Carter",
+  "totalprice": 654,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-05-31",
+    "checkout": "2027-06-03"
+  },
+  "additionalneeds": "Breakfast"
+}
+Token API Response : e5e1fd04ff983fb
+PATCH API Response : {
+  "firstname": "Hanah",
+  "lastname": "Carter",
+  "totalprice": 654,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-05-31",
+    "checkout": "2027-06-03"
+  },
+  "additionalneeds": "Breakfast"
+}

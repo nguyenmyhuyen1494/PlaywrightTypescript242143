@@ -1,0 +1,5 @@
+username,password,expectSuccess
+standard_user,secret_sauce,true
+locked_out_user,secret_sauce,false
+problem_user,secret_sauce,true
+invalid_user,wrong,false

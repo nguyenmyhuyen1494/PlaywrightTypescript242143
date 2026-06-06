@@ -1,0 +1,23 @@
+{
+    "StandardUser": {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "expectSuccess": true
+    },
+    "LockedUser": {
+      "username": "locked_out_user",
+      "password": "secret_sauce",
+      "expectSuccess": false
+    },
+    "ProblemUser": {
+      "username": "problem_user",
+      "password": "secret_sauce",
+      "expectSuccess": true
+    },
+    "InvalidUser": {
+      "username": "wrong_user",
+      "password": "wrong_pass",
+      "expectSuccess": false
+    }
+  }
+  
