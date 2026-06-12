@@ -1,0 +1,28 @@
+POST API Response : {
+  "bookingid": 4150,
+  "booking": {
+    "firstname": "Ursula",
+    "lastname": "Anderson",
+    "totalprice": 846,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2027-01-31",
+      "checkout": "2027-02-02"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
+Booking ID : 4150
+GET API Response : {
+  "firstname": "Ursula",
+  "lastname": "Anderson",
+  "totalprice": 846,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2027-01-31",
+    "checkout": "2027-02-02"
+  },
+  "additionalneeds": "Breakfast"
+}
+Token API Response : 763c28237f64e66
+DELETE API Response : Created
