@@ -4,16 +4,16 @@ import path from 'path';
 
 dotenv.config({ path: path.resolve(__dirname, '.env') });
 
+const isCI = !!process.env.CI;
+
 export default defineConfig({
   testDir: './e2e',
 
-  fullyParallel: true,
+  fullyParallel: false,   // máy yếu -> tắt parallel
+  workers: 1,             // chỉ 1 worker cho nhẹ
 
-  forbidOnly: !!process.env.CI,
-
-  retries: process.env.CI ? 1 : 0,
-
-  workers: process.env.CI ? 1 : undefined,
+  forbidOnly: isCI,
+  retries: isCI ? 1 : 0,
 
   timeout: 60000,
 
@@ -24,26 +24,14 @@ export default defineConfig({
   ],
 
   use: {
-    headless: false,
+    browserName: 'chromium',  // CHỈ CHROMIUM (nhẹ nhất)
+    headless: true,           // CI + máy yếu
+
     screenshot: 'only-on-failure',
-    video: 'retain-on-failure',
-    trace: 'retain-on-failure',
+    video: 'off',             // tắt video để nhẹ
+    trace: 'off',             // tắt trace để nhẹ
+
     actionTimeout: 30000,
     navigationTimeout: 30000,
   },
-
-  projects: [
-    {
-      name: 'chromium',
-      use: { browserName: 'chromium' },
-    },
-    {
-      name: 'firefox',
-      use: { browserName: 'firefox' },
-    },
-    {
-      name: 'webkit',
-      use: { browserName: 'webkit' },
-    },
-  ],
 });
