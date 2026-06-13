@@ -24,18 +24,26 @@ export default defineConfig({
   ],
 
   use: {
-    browserName: 'chromium',
-
     headless: false,
-
     screenshot: 'only-on-failure',
-
     video: 'retain-on-failure',
-
     trace: 'retain-on-failure',
-
     actionTimeout: 30000,
-
     navigationTimeout: 30000,
   },
+
+  projects: [
+    {
+      name: 'chromium',
+      use: { browserName: 'chromium' },
+    },
+    {
+      name: 'firefox',
+      use: { browserName: 'firefox' },
+    },
+    {
+      name: 'webkit',
+      use: { browserName: 'webkit' },
+    },
+  ],
 });
