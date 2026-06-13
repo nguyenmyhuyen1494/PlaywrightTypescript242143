@@ -1,4 +1,4 @@
-import { defineConfig, devices } from '@playwright/test';
+import { defineConfig } from '@playwright/test';
 import dotenv from 'dotenv';
 import path from 'path';
 
@@ -24,7 +24,9 @@ export default defineConfig({
   ],
 
   use: {
-    headless: true,
+    browserName: 'chromium',
+
+    headless: false,
 
     screenshot: 'only-on-failure',
 
@@ -36,13 +38,4 @@ export default defineConfig({
 
     navigationTimeout: 30000,
   },
-
-  projects: [
-    {
-      name: 'chromium',
-      use: {
-        ...devices['Desktop Chrome'],
-      },
-    },
-  ],
 });
